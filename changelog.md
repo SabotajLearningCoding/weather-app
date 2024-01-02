@@ -4,6 +4,7 @@
 
 ### Change
 * Updated words to mean absolutely nothing.
+-
 
 ## [1.0.0](https://github.com/SabotajLearningCoding/weather-app/releases/tag/v1.0.0) - 2024-01-02
 
