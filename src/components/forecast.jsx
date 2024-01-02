@@ -16,7 +16,7 @@ const weatherIcons = {
     Rain: RainImage,
     Drizzle: DrizzleImage,
     Thunderstorm: ThunderstormImage,
-    Tornado: TornadoImage
+    Tornado: TornadoImage,
 }
 
 function getWeatherIcon(weather) {

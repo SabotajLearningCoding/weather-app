@@ -17,6 +17,7 @@ import House from "@/images/house.svg"
 export default function Home() {
   return (
     <main>
+       <WeatherWidget />
       <Image className="house" src={House} alt="" />
       <Forecast />
     </main>
