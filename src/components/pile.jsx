@@ -8,7 +8,7 @@ export default function Pile({className, time, image, humidity, temp, day }) {
             {day && <p>{day}</p>}
                 <p className="pileTime">{time}</p>
                 <div>
-                <Image className="pileImage" src={image} alt="" />
+                <Image className="pileImage" src={image} alt="image" />
                 </div>
                 <p className="pileHumidity">{humidity}</p>
                 <p className="pileTemp">{temp}</p>
