@@ -1,0 +1,62 @@
+
+.weatherWidgetContainer {
+    height: 200px;
+    margin: 1em auto;
+    padding: 2em 1em 1em 1em;
+    border-radius: 25px;
+    max-width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weatherBox {
+
+    .weatherWidgetHeaderBox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .weatherWidgetImage {
+        scale: 1.5;
+        margin-left: 2.5em;
+        width: 100px;
+        height: 100px;
+    }
+
+    .weatherWidgetDegrees {
+        font-size: 60px;
+    }
+
+    .weatherDiv1 {
+        width: 40%;
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .weatherDiv2 {
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .weatherType {
+        color: white;
+        grid-row: 1;
+        text-align: end;
+    }
+
+    .weatherLocation {
+        grid-row: 1;
+    }
+
+    .weatherWidgetDegrees,
+    .weatherLocation {
+        color: white;
+    }
+
+    .weatherHighest,
+    .weatherLowest {
+        color: #ebebf56a;
+        grid-row: 1;
+    }
+}

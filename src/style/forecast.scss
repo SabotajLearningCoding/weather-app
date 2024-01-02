@@ -1,0 +1,43 @@
+.forecastContainer {
+    max-width: 450px;
+    height: 300px;
+    margin: auto;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    padding: 1em 0em;
+    background-image: linear-gradient(#2E335A, #1C1B33);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.forecastDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 1em;
+
+    p {
+        cursor: pointer;
+        color: #EBEBF5;
+        font-size: 13px;
+        width: 120px;
+        margin: auto;
+    }
+}
+
+.line {
+    width: 100px;
+    height: 20px;
+    color: white;
+    margin: auto;
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
