@@ -4,7 +4,9 @@ import Forecast from "@/components/forecast"
 import Navigation from "@/components/navigation"
 import Pile from "@/components/pile"
 import WeatherWidget from "@/components/weatherwidgets"
+import CurrentWeather from "@/components/currentWeather"
 import Image from "next/image"
+import WeatherFront from "@/components/weather-front"
 
 
 import "@/style/main.scss"
@@ -17,9 +19,7 @@ import House from "@/images/House.svg"
 export default function Home() {
   return (
     <main>
-       <WeatherWidget />
-      <Image className="house" src={House} alt="" />
-      <Forecast />
+      <WeatherFront />
     </main>
   )
 }
