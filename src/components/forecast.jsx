@@ -36,7 +36,7 @@ export default function Forecast() {
             navigator.geolocation.getCurrentPosition((position) => {
                 const lat = position.coords.latitude;
                 const lon = position.coords.longitude;
-                const key = "9e746779bd3354a9f64ee1f8e5d3ce18";
+                const key = process.env.NEXT_PUBLIC_API_KEY;
 
                 axios.get(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${key}`)
                     .then(response => {
