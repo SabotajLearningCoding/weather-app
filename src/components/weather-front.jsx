@@ -1,12 +1,9 @@
 "use client"
 import useWeather from "@/hooks/use-weather"
 import useCoords from "@/hooks/use-coords"
-//import useLocation from "@/hooks/use-location"
+import useLocation from "@/hooks/use-location"
 import Image from "next/image"
 import Forecast from "./forecast"
-import Pile from "./pile"
-import Navigation from "./navigation"
-import WeatherWidget from "./weatherwidgets"
 
 export default function WeatherFront() {
   const coords = useCoords()
