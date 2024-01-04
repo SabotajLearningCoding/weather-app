@@ -11,7 +11,7 @@ import "@/style/main.scss"
 import "@/style/weatherwidget.scss"
 import "@/style/forecast.scss"
 import "@/style/pile.scss"
-import House from "@/images/house.svg"
+import House from "@/images/House.svg"
 
 
 export default function Home() {
